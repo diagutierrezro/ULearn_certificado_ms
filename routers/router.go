@@ -8,19 +8,13 @@
 package routers
 
 import (
-	"github.com/diagutierrezro/Certificado/controllers"
+	"github.com/diagutierrezro/ULearn_certificado_ms/controllers"
 
 	"github.com/astaxie/beego"
 )
 
 func init() {
 	ns := beego.NewNamespace("/v1",
-
-		beego.NSNamespace("/datos_usuario_curso",
-			beego.NSInclude(
-				&controllers.DatosUsuarioCursoController{},
-			),
-		),
 
 		beego.NSNamespace("/certificado",
 			beego.NSInclude(

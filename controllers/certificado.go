@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/diagutierrezro/Certificado/models"
+	"github.com/diagutierrezro/ULearn_certificado_ms/models"
 
 	"github.com/astaxie/beego"
 )
