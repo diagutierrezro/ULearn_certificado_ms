@@ -6,9 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/diagutierrezro/Certificado/models"
-
 	"github.com/astaxie/beego"
+	"github.com/diagutierrezro/ULearn_certificado_ms/models"
 )
 
 // CertificadoController operations for Certificado
